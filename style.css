@@ -7,6 +7,8 @@
   width: 100%;
   height: 5rem;
   transition: transform .1s linear;
+  font-family: 'Merriweather', serif;
+  box-shadow: 3px 3px 3px 3px #fff;
 }
 
 .header.hide {
@@ -29,14 +31,17 @@
 .first-section {
   text-align: center;
   position: relative;
-  display: block;
-  box-sizing: border-box;
   color: #111111;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-family: 'Merriweather', serif;
   margin-bottom: 2rem;
-  padding-top: 3rem;
+  
+
+}
+
+.first-section-textcontent{
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 .div1-sec1-dark {
@@ -68,17 +73,14 @@
 
 .name-surname-title {
   text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 4px;
-  font-size: 3rem;
-  margin: 4rem auto 0;
-  padding: 0;
-  word-wrap: break-word;
-  position: relative;
-  font-family: sans-serif;
-  text-align: center;
-  letter-spacing: 4px;
-  font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 3rem;
+    position: relative;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    letter-spacing: 4px;
+
 }
 
 .name-surname-title b {
@@ -89,7 +91,7 @@
   margin: 1.5rem auto 0;
   display: block;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -108,21 +110,27 @@
 }
 
 .education-section-block {
-  height: 27rem;
   background-color: #212529;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .work-experience-section-block {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #454545;
-  margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #454545;
+    margin-top: 2rem;
+    font-family: 'Merriweather', serif;
+    padding-left: 5%;
+    margin-bottom: 2rem;
+    padding-right: 5%;
 }
 
 .work-experience-section li {
@@ -130,39 +138,37 @@
 }
 
 .text-work-exp {
-  width: 35%;
+  width: 40%;
 }
 
 .skills-section {
   background: #212529;
   color: #fff;
   height: auto;
-
+  margin-top: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .skills-section h2 {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 4px;
-  font-size: 3rem;
-  margin: 2rem auto 0;
-  padding: 1rem;
-  word-wrap: break-word;
-  width: 85% !important;
   position: relative;
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
   text-align: center;
-  font-size: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 0;
 }
 
 #carouselExampleIndicators {
   background: #212529 !important;
-  ;
 }
 
 .carousel-inner {
   position: relative;
 }
+
 
 .carousel-item-discription {
   position: absolute;
@@ -170,16 +176,30 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  bottom: 35%;
+  bottom: 30%;
   width: 100%;
   color: white;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'Merriweather', serif;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: auto !important;
 }
 
 .carousel-item img {
   width: 100%;
   height: 20rem;
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .read-more-skills {
@@ -200,16 +220,17 @@
 }
 
 .aboutme-section {
-  height: 15rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  font-family: 'Merriweather', serif;
+  margin-top: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .footer {
   background: #212529;
-  color: white;
-  padding: 1rem;
-  margin-top: 1rem;
+    color: white;
+    padding: 1rem 5%;
+    margin-top: 2rem;
 }
 
 .footer-contact a {
@@ -219,7 +240,8 @@
 
 .footer-contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  font-family: 'Merriweather', serif;
 }
 
 .footer-contact div {
@@ -239,7 +261,13 @@ a {
   border-radius: 6px;
   background: #fff;
   color: #454545;
-  width: 24%;
+  margin-left: 1rem;
+
+}
+
+.contact-item img{
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 
@@ -284,7 +312,7 @@ a {
     display: block;
     box-sizing: border-box;
     color: #111111;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -327,7 +355,7 @@ a {
     padding: 0;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
     font-size: 2.5rem;
@@ -341,7 +369,7 @@ a {
     margin: 1.5rem auto 0;
     display: block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -402,7 +430,7 @@ a {
     padding: 1rem;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
     font-size: 2.5rem;
@@ -540,7 +568,7 @@ a {
     display: block;
     box-sizing: border-box;
     color: #111111;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1;
     margin-bottom: 2rem;
@@ -583,7 +611,7 @@ a {
     padding: 0;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
     font-size: 2.5rem;
@@ -597,7 +625,7 @@ a {
     margin: 1.5rem auto 0;
     display: block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -676,7 +704,7 @@ a {
     padding: 1rem;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
     font-size: 2.5rem;
@@ -814,7 +842,7 @@ a {
     display: block;
     box-sizing: border-box;
     color: #111111;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1;
     margin-bottom: 2rem;
@@ -857,7 +885,7 @@ a {
     padding: 0;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
     font-size: 2.5rem;
@@ -871,7 +899,7 @@ a {
     margin: 1.5rem auto 0;
     display: block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -950,7 +978,7 @@ a {
     padding: 1rem;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
     font-size: 2.5rem;
@@ -1098,7 +1126,7 @@ a {
     display: block;
     box-sizing: border-box;
     color: #111111;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1;
     margin-bottom: 2rem;
@@ -1141,7 +1169,7 @@ a {
     padding: 0;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
     font-size: 2rem;
@@ -1155,7 +1183,7 @@ a {
     margin: 1.5rem auto 0;
     display: block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -1236,7 +1264,7 @@ a {
     padding: 1rem;
     word-wrap: break-word;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
     text-align: center;
     letter-spacing: 4px;
   }
