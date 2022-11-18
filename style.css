@@ -1,301 +1,5 @@
-.upward{
-  position: fixed;
-  bottom: 700px;
-  right: 1rem;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  background: url(img/up-arrow.png);
-  background-size: cover;
-  z-index: 3;
-  box-shadow: 1px 1px 1px 1px #fff;
-  border-radius: 50%;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-}
 
-.upward.active{
-  bottom: 1rem;
-  visibility: visible;
-  opacity: 1;
-}
-
-.header {
-  background: #212529;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  width: 100%;
-  height: 5rem;
-  transition: transform .1s linear;
-  font-family: 'Merriweather', serif;
-  box-shadow: 3px 3px 3px 3px #fff;
-}
-
-.header.hide {
-  transform: translateY(-6rem);
-}
-
-.header-block {
-  background: #212529;
-  display: flex;
-  justify-content: space-around;
-  padding: 1rem;
-  align-items: center;
-}
-
-.nav-link {
-  color: #fff !important;
-}
-
-
-.first-section {
-  text-align: center;
-  position: relative;
-  color: #111111;
-  font-family: 'Merriweather', serif;
-  margin-bottom: 2rem;
-  margin-top: 2.5rem;
-}
-
-.first-section-textcontent{
-  padding-left: 5%;
-  padding-right: 5%;
-
-}
-
-.div1-sec1-dark {
-  height: 27rem;
-  margin: 0;
-  background-image: none;
-  background-color: #212529;
-  position: relative;
-  box-sizing: border-box;
-  display: block;
-}
-
-.div2-sec2-dark {
-  width: 26.5rem;
-  height: 26.5rem;
-  background-image: url(img/logo.jpg);
-  background-position: 50% 50%;
-  margin: -21.5rem auto 0;
-  stroke: none;
-  border-radius: 50%;
-  border: 8px solid #fff;
-  object-fit: cover;
-  display: block;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.name-surname-title {
-  text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 4px;
-    font-size: 3rem;
-    position: relative;
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    letter-spacing: 4px;
-
-}
-
-.name-surname-title b {
-  font-weight: bold;
-}
-
-.hello-msg {
-  margin: 1.5rem auto 0;
-  display: block;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
-}
-
-.read-more-first-section {
-  border-style: solid;
-  text-transform: uppercase;
-  font-size: 1rem;
-  margin: 2rem auto;
-  padding: 10px 46px 10px 45px;
-  border-color: #454545 !important;
-  color: #454545 !important;
-  background-color: transparent !important;
-  position: relative;
-}
-
-.education-section-block {
-  background-color: #212529;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #ffffff;
-    font-family: 'Merriweather', serif;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.work-experience-section-block {
-    display: flex;
-    justify-content: space-between;
-    color: #454545;
-    margin-top: 2rem;
-    font-family: 'Merriweather', serif;
-    padding-left: 5%;
-    margin-bottom: 2rem;
-    padding-right: 5%;
-}
-
-.work-experience-section li {
-  margin-top: 1rem;
-}
-
-.text-work-exp {
-  width: 40%;
-}
-
-.skills-section {
-  background: #212529;
-  color: #fff;
-  height: auto;
-  margin-top: 2rem;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
-}
-
-.skills-section h2 {
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 4px;
-  position: relative;
-  font-family: 'Merriweather', serif;
-  text-align: center;
-  padding-top: 2rem;
-  margin-bottom: 0;
-}
-
-#carouselExampleIndicators {
-  background: #212529 !important;
-}
-
-.carousel-inner {
-  position: relative;
-}
-
-
-.carousel-item-discription {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-  bottom: 30%;
-  width: 100%;
-  color: white;
-  padding-left: 15%;
-  padding-right: 15%;
-  font-family: 'Merriweather', serif;
-}
-
-.carousel-control-next, .carousel-control-prev{
-  width: auto !important;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 20rem;
-}
-
-.carousel-indicators{
-    position: absolute;
-    right: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-}
-
-.read-more-skills {
-  background-image: none;
-  text-decoration: none;
-  border-style: solid;
-  text-transform: uppercase;
-  font-size: 1rem;
-  padding: 10px 46px 10px 45px;
-  border-color: #fff !important;
-  color: #fff !important;
-  background-color: transparent !important;
-  position: relative;
-}
-
-.employment {
-  text-align: center;
-}
-
-.aboutme-section {
-  font-family: 'Merriweather', serif;
-  margin-top: 2rem;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.footer {
-  background: #212529;
-    color: white;
-    padding: 1rem 5%;
-    margin-top: 2rem;
-}
-
-.footer-contact a {
-  text-decoration: none;
-  color: #454545;
-}
-
-.footer-contact {
-  display: flex;
-  justify-content: flex-end;
-  font-family: 'Merriweather', serif;
-}
-
-.footer-contact a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-contact span,
-h5,
-a {
-  margin: 0.5rem;
-}
-
-.contact-item {
-  border: 1px solid #fff;
-  border-radius: 6px;
-  background: #fff;
-  color: #454545;
-  margin-left: 1rem;
-  padding: 0.5rem;
-
-}
-
-.contact-item img{
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .upward{
     position: fixed;
     bottom: 700px;
@@ -326,10 +30,9 @@ a {
     left: 0;
     z-index: 3;
     width: 100%;
-    height: 5rem;
     transition: transform .1s linear;
     font-family: 'Merriweather', serif;
-    box-shadow: 3px 3px 3px 3px #fff;
+    box-shadow: 1px 1px 1px 1px #fff;
   }
   
   .header.hide {
@@ -497,7 +200,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    bottom: 30%;
+    bottom: 15%;
     width: 100%;
     color: white;
     padding-left: 15%;
@@ -511,7 +214,7 @@ a {
   
   .carousel-item img {
     width: 100%;
-    height: 20rem;
+    height: 17rem;
   }
   
   .carousel-indicators{
@@ -590,6 +293,1245 @@ a {
   .contact-item img{
     width: 1.5rem;
     height: 1.5rem;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .upward{
+    position: fixed;
+    bottom: 700px;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url(img/up-arrow.png);
+    background-size: cover;
+    z-index: 3;
+    box-shadow: 1px 1px 1px 1px #fff;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .upward.active{
+    bottom: 1rem;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .header {
+    background: #212529;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    transition: transform .1s linear;
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 1px 1px #fff;
+  }
+  
+  .header.hide {
+    transform: translateY(-6rem);
+  }
+  
+  .header-block {
+    background: #212529;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  
+  .first-section {
+    text-align: center;
+    position: relative;
+    color: #111111;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+  }
+  
+  .first-section-textcontent{
+    padding-left: 5%;
+    padding-right: 5%;
+  
+  }
+  
+  .div1-sec1-dark {
+    height: 27rem;
+    margin: 0;
+    background-image: none;
+    background-color: #212529;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .div2-sec2-dark {
+    width: 26.5rem;
+    height: 26.5rem;
+    background-image: url(img/logo.jpg);
+    background-position: 50% 50%;
+    margin: -21.5rem auto 0;
+    stroke: none;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .name-surname-title {
+    text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 4px;
+      font-size: 3rem;
+      position: relative;
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      letter-spacing: 4px;
+  
+  }
+  
+  .name-surname-title b {
+    font-weight: bold;
+  }
+  
+  .hello-msg {
+    margin: 1.5rem auto 0;
+    display: block;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .read-more-first-section {
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 2rem auto;
+    padding: 10px 46px 10px 45px;
+    border-color: #454545 !important;
+    color: #454545 !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .education-section-block {
+    background-color: #212529;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff;
+      font-family: 'Merriweather', serif;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+  
+  .work-experience-section-block {
+      display: flex;
+      justify-content: space-between;
+      color: #454545;
+      margin-top: 2rem;
+      font-family: 'Merriweather', serif;
+      padding-left: 5%;
+      margin-bottom: 2rem;
+      padding-right: 5%;
+  }
+
+  
+  .work-experience-section li {
+    margin-top: 1rem;
+  }
+
+  .work-experience-section img {
+    height: 500px;
+  }
+  
+  .text-work-exp {
+    width: 40%;
+  }
+  
+  .skills-section {
+    background: #212529;
+    color: #fff;
+    height: auto;
+    margin-top: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+  .skills-section h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4px;
+    position: relative;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  
+  #carouselExampleIndicators {
+    background: #212529 !important;
+  }
+  
+  .carousel-inner {
+    position: relative;
+  }
+  
+  
+  .carousel-item-discription {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    bottom: 15%;
+    width: 100%;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .carousel-control-next, .carousel-control-prev{
+    width: auto !important;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 17rem;
+  }
+  
+  .carousel-indicators{
+      position: absolute;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .read-more-skills {
+    background-image: none;
+    text-decoration: none;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px 46px 10px 45px;
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .employment {
+    text-align: center;
+  }
+  
+  .aboutme-section {
+    font-family: 'Merriweather', serif;
+    margin-top: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .footer {
+    background: #212529;
+      color: white;
+      padding: 1rem 5%;
+      margin-top: 2rem;
+
+  }
+  
+  .footer-contact a {
+    text-decoration: none;
+    color: #454545;
+  }
+  
+  .footer-contact {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .footer-contact a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-contact span,
+  h5,
+  a {
+    margin: 0.5rem;
+  }
+  
+  .contact-item {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: #fff;
+    color: #454545;
+    margin-left: 1rem;
+    padding: 0.5rem;
+  
+  }
+  
+  .contact-item img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .upward{
+    position: fixed;
+    bottom: 700px;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url(img/up-arrow.png);
+    background-size: cover;
+    z-index: 3;
+    box-shadow: 1px 1px 1px 1px #fff;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .upward.active{
+    bottom: 1rem;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .header {
+    background: #212529;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    transition: transform .1s linear;
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 1px 1px #fff;
+  }
+  
+  .header.hide {
+    transform: translateY(-6rem);
+  }
+  
+  .header-block {
+    background: #212529;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  
+  .first-section {
+    text-align: center;
+    position: relative;
+    color: #111111;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .first-section-textcontent{
+    padding-left: 5%;
+    padding-right: 5%;
+  
+  }
+  
+  .div1-sec1-dark {
+    height: 23rem;
+    margin: 0;
+    background-image: none;
+    background-color: #212529;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .div2-sec2-dark {
+    width: 23.5rem;
+    height: 23.5rem;
+    background-image: url(img/logo.jpg);
+    background-position: 50% 50%;
+    margin: -17.5rem auto 0;
+    stroke: none;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .name-surname-title {
+    text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 4px;
+      font-size: 3rem;
+      position: relative;
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      letter-spacing: 4px;
+  
+  }
+  
+  .name-surname-title b {
+    font-weight: bold;
+  }
+  
+  .hello-msg {
+    margin: 1.5rem auto 0;
+    display: block;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .read-more-first-section {
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 2rem auto;
+    padding: 10px 46px 10px 45px;
+    border-color: #454545 !important;
+    color: #454545 !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .education-section-block {
+    background-color: #212529;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff;
+      font-family: 'Merriweather', serif;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+
+  .education-section-block img{
+    height: 250px;
+  }
+  
+  .work-experience-section-block {
+      display: block;
+      color: #454545;
+      margin-top: 2rem;
+      font-family: 'Merriweather', serif;
+      padding-left: 5%;
+      margin-bottom: 2rem;
+      padding-right: 5%;
+  }
+
+  
+  .work-experience-section li {
+    margin-top: 1rem;
+  }
+
+  .work-experience-section img {
+    float: left;
+    margin-right: 2rem;
+    height: 350px;
+  }
+  
+  .text-work-exp {
+    width: 100%
+  }
+  
+  .skills-section {
+    background: #212529;
+    color: #fff;
+    height: auto;
+    margin-top: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+  .skills-section h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4px;
+    position: relative;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  
+  #carouselExampleIndicators {
+    background: #212529 !important;
+  }
+  
+  .carousel-inner {
+    position: relative;
+  }
+  
+  
+  .carousel-item-discription {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    bottom: 15%;
+    width: 100%;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .carousel-control-next, .carousel-control-prev{
+    width: auto !important;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 20rem;
+  }
+  
+  .carousel-indicators{
+      position: absolute;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .read-more-skills {
+    background-image: none;
+    text-decoration: none;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px 46px 10px 45px;
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .employment {
+    text-align: center;
+  }
+  
+  .aboutme-section {
+    font-family: 'Merriweather', serif;
+    margin-top: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .footer {
+    background: #212529;
+      color: white;
+      padding: 1rem 5%;
+      margin-top: 2rem;
+      
+  }
+  
+  .footer-contact a {
+    text-decoration: none;
+    color: #454545;
+  }
+  
+  .footer-contact {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .footer-contact a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-contact span,
+  h5,
+  a {
+    margin: 0.5rem;
+  }
+  
+  .contact-item {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: #fff;
+    color: #454545;
+    margin-left: 1rem;
+    padding: 0.5rem;
+  
+  }
+  
+  .contact-item img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .upward{
+    position: fixed;
+    bottom: 700px;
+    right: 1rem;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background: url(img/up-arrow.png);
+    background-size: cover;
+    z-index: 3;
+    box-shadow: 1px 1px 1px 1px #fff;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .upward.active{
+    bottom: 1rem;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .header {
+    background: #212529;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    transition: transform .1s linear;
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 1px 1px #fff;
+    font-size: small;
+  }
+  
+  .header.hide {
+    transform: translateY(-6rem);
+  }
+  
+  .header-block {
+    background: #212529;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  
+  .first-section {
+    text-align: center;
+    position: relative;
+    color: #111111;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .first-section-textcontent{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  
+  }
+  
+  .div1-sec1-dark {
+    height: 20rem;
+    margin: 0;
+    background-image: none;
+    background-color: #212529;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .div2-sec2-dark {
+    width: 20.5rem;
+    height: 20.5rem;
+    background-image: url(img/logo.jpg);
+    background-position: 50% 50%;
+    margin: -14.5rem auto 0;
+    stroke: none;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .name-surname-title {
+    text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 4px;
+      font-size: 2rem;
+      position: relative;
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      letter-spacing: 4px;
+  
+  }
+  
+  .name-surname-title b {
+    font-weight: bold;
+  }
+  
+  .hello-msg {
+    margin: 1.5rem auto 0;
+    display: block;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: medium;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .read-more-first-section {
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 2rem auto;
+    padding: 10px 46px 10px 45px;
+    border-color: #454545 !important;
+    color: #454545 !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .education-section-block {
+    background-color: #212529;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff;
+      font-family: 'Merriweather', serif;
+      font-size: medium;
+      padding: 2rem;
+  }
+
+  .education-section-block img{
+    height: 200px;
+  }
+  
+  .work-experience-section-block {
+      display: block;
+      color: #454545;
+      margin-top: 2rem;
+      font-family: 'Merriweather', serif;
+      padding-left: 2rem;
+      margin-bottom: 2rem;
+      padding-right: 2rem;
+      font-size: medium;
+  }
+
+  
+  .work-experience-section li {
+    margin-top: 1rem;
+  }
+
+  .work-experience-section img {
+    float: left;
+    margin-right: 2rem;
+    height: 300px;
+  }
+  
+  .text-work-exp {
+    width: 100%
+  }
+  
+  .skills-section {
+    background: #212529;
+    color: #fff;
+    height: auto;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+  }
+  
+  .skills-section h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4px;
+    position: relative;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  
+  #carouselExampleIndicators {
+    background: #212529 !important;
+  }
+  
+  .carousel-inner {
+    position: relative;
+  }
+  
+  
+  .carousel-item-discription {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    bottom: 15%;
+    width: 100%;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .carousel-control-next, .carousel-control-prev{
+    width: auto !important;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 23rem;
+  }
+  
+  .carousel-indicators{
+      position: absolute;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .read-more-skills {
+    background-image: none;
+    text-decoration: none;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px 46px 10px 45px;
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .employment {
+    text-align: center;
+  }
+  
+  .aboutme-section {
+    font-family: 'Merriweather', serif;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .footer {
+    background: #212529;
+      color: white;
+      padding: 1rem 5%;
+      margin-top: 2rem;
+      
+  }
+  
+  .footer-contact a {
+    text-decoration: none;
+    color: #454545;
+  }
+  
+  .footer-contact {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .footer-contact a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-contact span,
+  h5,
+  a {
+    margin: 0.5rem;
+  }
+  
+  .contact-item {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: #fff;
+    color: #454545;
+    margin-left: 1rem;
+    padding: 0.5rem;
+  
+  }
+  
+  .contact-item img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .upward{
+    position: fixed;
+    bottom: 700px;
+    right: 1rem;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background: url(img/up-arrow.png);
+    background-size: cover;
+    z-index: 3;
+    box-shadow: 1px 1px 1px 1px #fff;
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .upward.active{
+    bottom: 1rem;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .header {
+    background: #212529;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    transition: transform .1s linear;
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 1px 1px #fff;
+    font-size: small;
+  }
+  
+  .header.hide {
+    transform: translateY(-6rem);
+  }
+  
+  .header-block {
+    background: #212529;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  
+  .first-section {
+    text-align: center;
+    position: relative;
+    color: #111111;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .first-section-textcontent{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: small;
+  
+  }
+  
+  .div1-sec1-dark {
+    height: 15rem;
+    margin: 0;
+    background-image: none;
+    background-color: #212529;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .div2-sec2-dark {
+    width: 10rem;
+    height: 10rem;
+    background-image: url(img/logo.jpg);
+    background-position: 50% 50%;
+    margin: -6.5rem auto 0;
+    stroke: none;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .name-surname-title {
+    text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 4px;
+      font-size: 2rem;
+      position: relative;
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      letter-spacing: 4px;
+  
+  }
+  
+  .name-surname-title b {
+    font-weight: bold;
+  }
+  
+  .hello-msg {
+    margin: 1.5rem auto 0;
+    display: block;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .read-more-first-section {
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 1rem auto;
+    padding: 10px 46px 10px 45px;
+    border-color: #454545 !important;
+    color: #454545 !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .education-section-block {
+    background-color: #212529;
+    display: flex;
+    justify-content: start;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    font-size: small;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-section-block img{
+    height: 200px;
+    width: auto;
+  }
+  
+  .work-experience-section-block {
+    display: flex;
+    color: #454545;
+    margin-top: 1rem;
+    font-family: 'Merriweather', serif;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+    font-size: small;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  
+  .work-experience-section li {
+    margin-top: 1rem;
+  }
+
+  .work-experience-section img {
+    float: left;
+    height: 200px;
+  }
+  
+  .text-work-exp {
+    width: 100%
+  }
+  
+  .skills-section {
+    background: #212529;
+    color: #fff;
+    height: auto;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .skills-section h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4px;
+    position: relative;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  #carouselExampleIndicators {
+    background: #212529 !important;
+  }
+  
+  .carousel-inner {
+    position: relative;
+  }
+  
+  
+  .carousel-item-discription {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    bottom: 15%;
+    width: 100%;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .carousel-control-next, .carousel-control-prev{
+    width: auto !important;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 24rem;
+  }
+  
+  .carousel-indicators{
+      position: absolute;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .read-more-skills {
+    background-image: none;
+    text-decoration: none;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px 46px 10px 45px;
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  .employment {
+    text-align: center;
+  }
+  
+  .aboutme-section {
+    font-family: 'Merriweather', serif;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: small;
+  }
+  
+  .footer {
+    background: #212529;
+      color: white;
+      padding: 1rem 5%;
+      margin-top: 1rem;
+      
+  }
+  
+  .footer-contact a {
+    text-decoration: none;
+    color: #454545;
+  }
+  
+  .footer-contact {
+    display: flex;
+    font-family: 'Merriweather', serif;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+  
+  .footer-contact a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-contact span,
+  h5,
+  a {
+    margin: 0.5rem;
+  }
+  
+  .contact-item {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: #fff;
+    color: #454545;
+    margin-left: 1rem;
+    padding: 0.5rem;
+  
+  }
+  
+  .contact-item img{
+    width: 1rem;
+    height: 1rem;
   }
   
 }
