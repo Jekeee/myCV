@@ -1583,44 +1583,38 @@
   .footer {
     background: #212529;
     color: white;
-    padding: 1rem 5%;
+    padding: 1rem;
     margin-top: 1rem;
+    font-size: small;
 
   }
 
-  .footer-contact a {
-    text-decoration: none;
-    color: #454545;
-  }
 
   .footer-contact {
     display: flex;
     font-family: 'Merriweather', serif;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: center;
     flex-direction: row-reverse;
+    align-items: center;
   }
 
   .footer-contact a {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
-  .footer-contact span,
-  h5,
-  a {
-    margin: 0.5rem;
-  }
+
 
   .contact-item {
     border: 1px solid #fff;
     border-radius: 6px;
     background: #fff;
     color: #454545;
-    margin-left: 1rem;
-    padding: 0.5rem;
+    margin-left: 0;
+    padding: 0.3rem;
+
 
   }
 
@@ -1628,5 +1622,7 @@
     width: 1rem;
     height: 1rem;
   }
+
+  
 
 }
